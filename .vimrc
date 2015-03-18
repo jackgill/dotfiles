@@ -13,3 +13,5 @@ execute pathogen#infect()
 
 imap jj <Esc>
 set nohlsearch
+
+autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
